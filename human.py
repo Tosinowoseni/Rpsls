@@ -4,9 +4,9 @@
 #Date: April 10th 2022
 
 #imports
-from player import player
+from player import Player
 
-class human(Player):
+class human(player):
     def __init__(self):
         super().__init__()
         self.set_player_name()

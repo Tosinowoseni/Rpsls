@@ -5,5 +5,5 @@
 
 from game import game
 
-new_game = Game()
+new_game = game()
 new_game.run_game()

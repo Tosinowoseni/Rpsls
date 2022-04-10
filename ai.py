@@ -1,7 +1,7 @@
 from player import player
 import random
 from time import sleep
-class AI(Player):
+class AI(player):
 
     def __init__(self, name):
         super().__init__()
